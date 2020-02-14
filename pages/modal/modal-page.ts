@@ -9,9 +9,9 @@ import { ModalController } from 'ionic-angular';
   styleUrls: ['modal.scss']
 })
 export class ModalPage {
-  
+  bgImage;
   constructor(public navCtrl: NavController, public viewCtrl: ViewController) {
-
+  this.bgImage = 'BATELCO.png';
   }
 
   dismiss() {
