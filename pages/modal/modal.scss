@@ -39,11 +39,11 @@ modal-wrapper {
   .modal_content {
     display: block;
     position: relative;
-    top: calc(50% - (50%/2));
+    top: calc(20% - (20%/2));
     left: 0;
     right: 0;
     width: 80%;
-    height: 60%;
+    height: 80%;
     // padding: 10px;
     z-index: 1;
     margin: 0 auto;

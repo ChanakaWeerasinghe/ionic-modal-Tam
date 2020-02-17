@@ -1,46 +1,59 @@
+<!--
+  Generated template for the PopupPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
 <ion-content padding class="main-view">
+
 	<div class="overlay" (click)="dismiss()"></div>
-	<div class="modal_content image">
+	<div class="modal_content " [ngStyle]="{'background-image':'url('+ bgImage +')', 'background-size': 'cover'}">
 
 		<div class="modal-content">
-			<!-- <div class="my">
+
+			<div class="my">
 
 				<ion-grid>
 					<ion-row>
-						<ion-col col-3> </ion-col>
+						<ion-col></ion-col>
 						<ion-col col-8>
-							<h3> SimSim 2BD</h3>
+							<h6> PS PLUS UAE 12 MONTH</h6>
 						</ion-col>
 
-						<ion-col col-3></ion-col>
+						<ion-col></ion-col>
 
 					</ion-row>
-					<ion-row>
-						<h5>
-							Pin Number
-						</h5>
-						<br>
 
-          </ion-row>
-						<ion-row></ion-row>
-						<ion-row>
-							<ion-col col-6>
-								<button ion-button full class="ion">Coppy Pin
-      </button>
-							</ion-col>
-							<ion-col col-6>
-								<button ion-button full class="ion">Share Pin
-      </button>
-							</ion-col>
-						</ion-row>
+					<ion-row></ion-row>
+
+					<ion-row>
+						<H6> </H6>
+						<span> PIN NUMBER: </span>
+						<h5>
+							XXXX-XXXX'XXXX
+						</h5>
+						<span>*Code Redeemable only on UAE PSN Account </span>
+						<span>1- Sign in to PlayStation Network on your PS4, PS3, PSP or PC</span>
+						<span>  2- Head to PlayStation Store & select the redeem code icon</span>
+						<span>3- Enter teh code you have purchased</span>
+
+
+
+					</ion-row>
+          <br>
+					<ion-row>
+						<ion-col col-6>
+							<button ion-button full class="ion">Coppy Pin
+              </button>
+						</ion-col>
+						<ion-col col-6>
+							<button ion-button full class="ion">Share Pin
+              </button>
+						</ion-col>
+					</ion-row>
 				</ion-grid>
-			</div> -->
-       <div id="component-id" [style.backgroundImage]="'url(' + bgImage + ')'">
-    <!-- ... -->
-    dscsdcsd
-</div>
+			</div>
 		</div>
-   
 	</div>
 
 </ion-content>

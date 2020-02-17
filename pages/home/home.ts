@@ -15,7 +15,7 @@ export class HomePage {
   }
 
   openModal(){
-    let modal = this.modalCtrl.create(ModalPage);
+    let modal = this.modalCtrl.create(ModalPage,{data:"chanaka"});
     modal.present();
   }
 

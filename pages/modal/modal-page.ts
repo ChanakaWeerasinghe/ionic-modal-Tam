@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, ViewController } from 'ionic-angular';
+import { NavController, ViewController ,NavParams} from 'ionic-angular';
 import { ModalController } from 'ionic-angular';
 
 
@@ -10,8 +10,13 @@ import { ModalController } from 'ionic-angular';
 })
 export class ModalPage {
   bgImage;
-  constructor(public navCtrl: NavController, public viewCtrl: ViewController) {
-  this.bgImage = 'BATELCO.png';
+  data;
+  constructor(params: NavParams,public navCtrl: NavController, public viewCtrl: ViewController) {
+  this.bgImage = 'https://github.com/ChanakaWeerasinghe/ionic-modal-Tam/blob/master/pages/BATELCO.png?raw=true';
+      // this.data = this.params.data;
+            console.log(params.get('data'));
+
+
   }
 
   dismiss() {
